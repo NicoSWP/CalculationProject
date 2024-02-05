@@ -9,8 +9,8 @@ public class Calculation {
      * @return maximum number of array
      */
     public static int findMax(int arr[]){
-        int max = 0;
-        for(int i=1;i<=arr.length; i++){
+        int max = arr[1];
+        for(int i=0;i<arr.length; i++){
             if(max<arr[i]){
                 max = arr[i];
             }

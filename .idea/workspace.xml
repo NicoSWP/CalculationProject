@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87fb4519-b627-4e45-a129-54dca8bc8ba2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalculationProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CalculationProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Calculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CalculationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculationTest.java" afterDir="false" />
     </list>
@@ -84,7 +82,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707132718762</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1707134718369</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707134718369</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
