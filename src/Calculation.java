@@ -28,8 +28,8 @@ public class Calculation {
      * @param n - integer number
      * @return cube of given number
      */
-    public static int cube(int n){
-        return n*n*n;
+    public static double cube(double n){
+        return Math.pow(n, 2);
     }
 
     /**

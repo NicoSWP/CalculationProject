@@ -40,4 +40,20 @@ public class CalculationTest {
         int[] arr6 = new int[]{}; //empty
         Calculation.findMax(arr6);
     }
+
+    @Test
+    public void testCube(){
+        double n = 1;       //case 1
+        double expected = 1;
+        double n2 = 2;      //case 2
+        double expected2 = 4;
+        double n3 = 3;      //case 3
+        double expected3 = 9;
+        double result = Calculation.cube(n);
+        double result2 = Calculation.cube(n2);
+        double result3 = Calculation.cube(n3);
+        Assert.assertEquals(result, expected);
+        Assert.assertEquals(result2, expected2);
+        Assert.assertEquals(result3, expected3);
+    }
 }
