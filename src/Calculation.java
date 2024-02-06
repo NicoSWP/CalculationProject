@@ -60,11 +60,8 @@ public class Calculation {
      * @param exponent
      * @return base to the power of exponent
      */
-    public static int toThePowerOf(int base, int exponent) {
-        int result = 0;
-        for(int i = 0; i <= exponent; i++) {
-            result *= base;
-        }
+    public static double toThePowerOf(double base, double exponent) {
+        double result = Math.pow(base, exponent);
         return result;
     }
 }
