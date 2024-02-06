@@ -12,7 +12,6 @@ public class CalculationTest {
             System.out.println(e.getMessage());
         }
     }
-
     @Test
     public void testFindMaxCase2() {
         int[] arr2 = new int[]{5,2,3,4,1}; //position
@@ -24,7 +23,6 @@ public class CalculationTest {
             System.out.println(e.getMessage());
         }
     }
-
     @Test
     public void testFindMaxCase3() {
         int[] arr3 = new int[]{5,2,3,4,5}; //duplicate
@@ -36,7 +34,6 @@ public class CalculationTest {
             System.out.println(e.getMessage());
         }
     }
-
     @Test
     public void testFindMaxCase4() {
         int[] arr4 = new int[]{-1,-2,-3,-4,-5}; //negative
@@ -59,7 +56,6 @@ public class CalculationTest {
             System.out.println(e.getMessage());
         }
     }
-
     @Test(expectedExceptions = Exception.class)
     public void testFindMaxWithExceptionCase6() throws Exception{
         int[] arr6 = new int[]{}; //empty
@@ -115,6 +111,23 @@ public class CalculationTest {
 
     @Test
     public void testReverseWordCase1(){
-
+        String str = "Feuerwehr";
+        String expected = "rhewreueF";
+        String result = Calculation.reverseWord(str);
+        Assert.assertEquals(result, expected);
+    }
+    @Test
+    public void testReverseWordCase2(){
+        String str = "Feuerwehr!";
+        String expected = "!rhewreueF";
+        String result = Calculation.reverseWord(str);
+        Assert.assertEquals(result, expected);
+    }
+    @Test
+    public void testReverseWordCase3(){
+        String str = "Feuerwehr122";
+        String expected = "221rhewreueF";
+        String result = Calculation.reverseWord(str);
+        Assert.assertEquals(result, expected);
     }
 }

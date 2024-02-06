@@ -49,7 +49,6 @@ public class Calculation {
             sb.reverse();
 
             result.append(sb);
-            result.append(" ");
         }
         return result.toString();
     }
