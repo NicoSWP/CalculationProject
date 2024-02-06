@@ -8,14 +8,18 @@ public class Calculation {
      * @param arr - integer array (arbitrary length)
      * @return maximum number of array
      */
-    public static int findMax(int arr[]){
-        int max = arr[1];
-        for(int i=0;i<arr.length; i++){
-            if(max<arr[i]){
-                max = arr[i];
+    public static int findMax(int arr[]) throws Exception{
+        if(arr.length>0){
+            int max = arr[0];
+            for(int i=0;i<arr.length; i++){
+                if(max<arr[i]){
+                    max = arr[i];
+                }
             }
+            return max;
+        } else {
+            throw new Exception("Array is empty!");
         }
-        return max;
     }
 
     /**
